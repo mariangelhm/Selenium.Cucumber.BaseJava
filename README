@@ -1,0 +1,5 @@
+Jenkins:
+- Instalar plugins de allure y de maven.
+
+Correr Script:
+./script.sh

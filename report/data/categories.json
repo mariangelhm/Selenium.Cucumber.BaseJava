@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/div/div[1] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Login Valid",
+        "uid" : "6a2b9f91fcf05909",
+        "parentUid" : "ed9f7f85cc7229a7fafaee18a4c203e4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1681353018676,
+          "stop" : 1681353031745,
+          "duration" : 13069
+        },
+        "flaky" : false,
+        "parameters" : [ "Test - login ok", "false", "Dashboard", "pass", "user" ]
+      } ],
+      "uid" : "ed9f7f85cc7229a7fafaee18a4c203e4"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "Front Payment" ],
+  "name" : "Service"
+}, {
+  "values" : [ "Production" ],
+  "name" : "Environment"
+}, {
+  "values" : [ "XXX Version Variable" ],
+  "name" : "Browser.Version"
+}, {
+  "values" : [ "Chrome" ],
+  "name" : "Browser"
+} ]

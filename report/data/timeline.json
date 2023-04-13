@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-C79SNE6L",
+    "children" : [ {
+      "name" : "3696@LAPTOP-C79SNE6L.main(1)",
+      "children" : [ {
+        "name" : "Login Valid",
+        "uid" : "6a2b9f91fcf05909",
+        "parentUid" : "cd821f4371d055415c3f8f1b70e3b536",
+        "status" : "broken",
+        "time" : {
+          "start" : 1681353018676,
+          "stop" : 1681353031745,
+          "duration" : 13069
+        },
+        "flaky" : false,
+        "parameters" : [ "Test - login ok", "false", "Dashboard", "pass", "user" ]
+      }, {
+        "name" : "Login Invalid",
+        "uid" : "159c349b107ff846",
+        "parentUid" : "cd821f4371d055415c3f8f1b70e3b536",
+        "status" : "passed",
+        "time" : {
+          "start" : 1681353012645,
+          "stop" : 1681353018629,
+          "duration" : 5984
+        },
+        "flaky" : false,
+        "parameters" : [ "Test - password invalid", "false", "Invalid credentials", "pass_invalid", "user" ]
+      } ],
+      "uid" : "cd821f4371d055415c3f8f1b70e3b536"
+    } ],
+    "uid" : "46be49ee80ee28182e36c80477d67fbd"
+  } ]
+}

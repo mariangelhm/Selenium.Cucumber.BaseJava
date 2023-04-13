@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "src.test.java.features.login_feature.Login",
+    "children" : [ {
+      "name" : "Login Invalid",
+      "uid" : "159c349b107ff846",
+      "parentUid" : "93d0cc8dc47cd29e063c88ef1bf3fa08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681353012645,
+        "stop" : 1681353018629,
+        "duration" : 5984
+      },
+      "flaky" : false,
+      "parameters" : [ "Test - password invalid", "false", "Invalid credentials", "pass_invalid", "user" ]
+    }, {
+      "name" : "Login Valid",
+      "uid" : "6a2b9f91fcf05909",
+      "parentUid" : "93d0cc8dc47cd29e063c88ef1bf3fa08",
+      "status" : "broken",
+      "time" : {
+        "start" : 1681353018676,
+        "stop" : 1681353031745,
+        "duration" : 13069
+      },
+      "flaky" : false,
+      "parameters" : [ "Test - login ok", "false", "Dashboard", "pass", "user" ]
+    } ],
+    "uid" : "src.test.java.features.login_feature.Login"
+  } ]
+}

@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "Login Invalid",
+      "children" : [ {
+        "name" : "Login Invalid",
+        "uid" : "159c349b107ff846",
+        "parentUid" : "6848d016ce3c7f3481e40bb7d8834568",
+        "status" : "passed",
+        "time" : {
+          "start" : 1681353012645,
+          "stop" : 1681353018629,
+          "duration" : 5984
+        },
+        "flaky" : false,
+        "parameters" : [ "Test - password invalid", "false", "Invalid credentials", "pass_invalid", "user" ]
+      } ],
+      "uid" : "6848d016ce3c7f3481e40bb7d8834568"
+    }, {
+      "name" : "Login Valid",
+      "children" : [ {
+        "name" : "Login Valid",
+        "uid" : "6a2b9f91fcf05909",
+        "parentUid" : "8c62fe0b6b98573dfb2be89ef0ff7757",
+        "status" : "broken",
+        "time" : {
+          "start" : 1681353018676,
+          "stop" : 1681353031745,
+          "duration" : 13069
+        },
+        "flaky" : false,
+        "parameters" : [ "Test - login ok", "false", "Dashboard", "pass", "user" ]
+      } ],
+      "uid" : "8c62fe0b6b98573dfb2be89ef0ff7757"
+    } ],
+    "uid" : "14102d61eef2af473312d4f91dec531b"
+  } ]
+}

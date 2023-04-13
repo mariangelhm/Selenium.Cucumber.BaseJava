@@ -1,0 +1,137 @@
+{
+  "uid" : "159c349b107ff846",
+  "name" : "Login Invalid",
+  "fullName" : "Login: Login Invalid",
+  "historyId" : "fd0326ddf7f6da9b7344369a3c8ad4b1",
+  "time" : {
+    "start" : 1681353012645,
+    "stop" : 1681353018629,
+    "duration" : 5984
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Open url",
+      "time" : {
+        "start" : 1681353012646,
+        "stop" : 1681353016633,
+        "duration" : 3987
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  login with credentials \"user\" \"pass_invalid\"",
+      "time" : {
+        "start" : 1681353016634,
+        "stop" : 1681353016831,
+        "duration" : 197
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  valid message \"Invalid credentials\" \"false\"",
+      "time" : {
+        "start" : 1681353016832,
+        "stop" : 1681353018629,
+        "duration" : 1797
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "loginInvalid"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-C79SNE6L"
+  }, {
+    "name" : "thread",
+    "value" : "3696@LAPTOP-C79SNE6L.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "story",
+    "value" : "Login Invalid"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Invalid"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/java/features/login.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.login_feature.Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "comments",
+    "value" : "Test - password invalid"
+  }, {
+    "name" : "login_ok",
+    "value" : "false"
+  }, {
+    "name" : "msj",
+    "value" : "Invalid credentials"
+  }, {
+    "name" : "password",
+    "value" : "pass_invalid"
+  }, {
+    "name" : "user",
+    "value" : "user"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "login", "loginInvalid" ]
+  },
+  "source" : "159c349b107ff846.json",
+  "parameterValues" : [ "Test - password invalid", "false", "Invalid credentials", "pass_invalid", "user" ]
+}

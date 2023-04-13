@@ -1,0 +1,5 @@
+.side-nav__brand {
+  background: url('.allure/allure-2.7.0/plugins/custom-logo-plugin/static/logo.png') no-repeat left center !important;
+  padding-left: 180px !important;
+  margin-left: 10px;
+}

@@ -1,0 +1,41 @@
+{
+  "86b38ebcc2d3e9a5dfc202c22ee1d951" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a2b9f91fcf05909",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/div/div[1] (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1681353018676,
+        "stop" : 1681353031745,
+        "duration" : 13069
+      }
+    } ]
+  },
+  "fd0326ddf7f6da9b7344369a3c8ad4b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "159c349b107ff846",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681353012645,
+        "stop" : 1681353018629,
+        "duration" : 5984
+      }
+    } ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "InputNameEmployee": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/div/div/input"
+  },
+
+
+  "InputIdEmployee": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/input"
+  },
+
+  "selectSubUnitEmployee": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[7]/div/div[2]/div/div/div[1]"
+  },
+
+  "selectJobTitle": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[6]/div/div[2]/div/div"
+  },
+
+  "selectIncludeEmployee": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[4]/div/div[2]/div/div"
+  },
+
+  "selectStatusEmployee": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[3]/div/div[2]/div/div"
+  },
+
+  "afterGoToUrl": {
+    "GetFieldBy": "name",
+    "ValueToFind": "username"
+  }
+
+
+
+}
